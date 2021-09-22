@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canva HTML Email</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        background-color: #cccccc;
+        font-family: Open Sans, Helvetica, Arial, sans serif;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      a {
+        text-decoration: none;
+        color: purple;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #ffffff;
+        padding-bottom: 40px;
+      }
+      .main {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        color: #4a4a4a;
+      }
+      .two-columns {
+        text-align: center;
+        font-size: 0;
+        padding: 40px 0;
+      }
+      .two-columns .column {
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        font-size: 18px;
+        background-color: #ffffff;
+      }
+      .button {
+        background-color: darkorchid;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 2px;
+      }
+      .button-white {
+        background-color: #eeeeef;
+        color: #6e7174;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 2px;
+      }
+      .blk {
+        background-color: black;
+      }
+      .padding {
+        padding: 0px 30px 10px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table class="main" width="100%">
+        <!-- GREY BORDER -->
+        <tr>
+          <td height="8" style="background-color: #ffffff"></td>
+        </tr>
+        <!-- LOGO SECTION -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="text-align: center"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- BANNER IMAGE -->
+        <tr>
+          <td
+            style="
+              text-align: center;
+              padding-left: 30px;
+              padding-right: 30px;
+              padding-top: 50px;
+            "
+          >
+            <a href="https://www.endclothing.com/us"
+              ><img
+                src="img/invoice_banner.jpeg"
+                alt=""
+                width="600"
+                style="max-width: 100%"
+            /></a>
+          </td>
+        </tr>
+        <!-- BACKGROUND COLOR TEXT -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="padding" style="color: black">
+                  <p
+                    style="text-align: left; font-size: 2em; font-weight: bold"
+                  >
+                    Your invoice
+                  </p>
+                  <p>
+                    Thank you for your purchase! Your invoice details are below.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- TWO COLUMN SECTION -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table class="column">
+                    <tr>
+                      <td
+                        class="padding"
+                        style="text-align: left; font-size: 16px"
+                      >
+                        <p style="font-weight: 600">INVOICE</p>
+                        <p>04185-30743419</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="padding"
+                        style="text-align: left; font-size: 16px"
+                      >
+                        <p style="font-weight: 600">BRAND ID</p>
+                        <p>BAOkskadiBQ</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td
+                        class="padding"
+                        style="text-align: left; font-size: 16px"
+                      >
+                        <p style="font-weight: 600">DATE OF ISSUE</p>
+                        <p>Sep 21, 2021</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        class="padding"
+                        style="text-align: left; font-size: 16px"
+                      >
+                        <p style="font-weight: 600">BILLED TO</p>
+                        <p>Card (MasterCard - 1903)</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <a href="#" class="button" style="margin-left: 30px"
+                    >View details</a
+                  >
+                </td>
+                <td>
+                  <a href="#" class="button-white" style="margin-left: 30px">
+                    View all invoices
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- INVOICE SUMMARY SECTION -->
+        <td>
+          <div
+            style="
+              color: #0e1318;
+              font-family: Open Sans, Helvetica, Arial, sans serif;
+              font-size: 20px;
+              font-weight: 700;
+              letter-spacing: -0.3px;
+              line-height: 130%;
+              text-align: left;
+              padding-top: 4em;
+              padding-left: 30px;
+              padding-right: 30px;
+            "
+          >
+            Invoice Summary
+          </div>
+        </td>
+        <tr>
+          <td
+            style="
+              background-color: #ffffff;
+              text-align: center;
+              padding-bottom: 1em;
+              padding-left: 30px;
+              padding-right: 30px;
+              padding-top: 1em;
+            "
+          >
+            <table width="100%" style="padding-bottom: 4em">
+              <tr>
+                <th
+                  style="
+                    border-bottom: 1px solid #eeeeef;
+                    color: #6e7174;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    padding: 12px;
+                    text-transform: uppercase;
+                    text-align: start;
+                  "
+                >
+                  Item
+                </th>
+                <th
+                  style="
+                    border-bottom: 1px solid #eeeeef;
+                    color: #6e7174;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    padding: 12px;
+                    text-transform: uppercase;
+                    text-align: end;
+                    width: 100px;
+                  "
+                >
+                  Amount
+                </th>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    border-bottom: 1px solid #eeeeef;
+                    color: #0e1318;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 14px;
+                    font-weight: normal;
+                    line-height: 160%;
+                    padding: 12px;
+                    text-align: start;
+                  "
+                >
+                  Subscription charges
+                </td>
+                <td
+                  style="
+                    border-bottom: 1px solid #eeeeef;
+                    color: #0e1318;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 14px;
+                    font-weight: normal;
+                    line-height: 160%;
+                    padding: 12px;
+                    text-align: end;
+                  "
+                >
+                  $12.99
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  style="
+                    color: #0e1318;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 160%;
+                    padding: 12px 12px 0;
+                    text-align: end;
+                  "
+                >
+                  Charged:
+                </td>
+                <td
+                  style="
+                    color: #0e1318;
+                    font-family: Open Sans, Helvetica, Arial, sans serif;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 160%;
+                    padding: 12px 12px 0;
+                    text-align: end;
+                  "
+                >
+                  $12.99
+                </td>
+              </tr>
+              <tr
+                style="
+                  padding-left: 30px;
+                  padding-right: 30px;
+                  padding-top: 1em;
+                "
+              ></tr>
+            </table>
+          </td>
+        </tr>
+        <!-- FOOTER SECTION -->
+        <table
+          style="padding-left: 30px; padding-right: 30px; padding-top: 1em"
+        >
+          <tr>
+            <td
+              style="
+                color: #0e1318;
+                font-family: Open Sans, Helvetica, Arial, sans serif;
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 160%;
+                padding: 12px;
+                text-align: center;
+                border-top: 1px solid #eeeeef;
+                width: 35em;
+              "
+            >
+              You received this email because you made a purchase on Canva. If
+              this was sent to you by mistake, please
+              <a href="#">contact support.</a>
+            </td>
+          </tr>
+        </table>
+        <!-- SOCIAL MEDIA ICONS -->
+
+        <!-- GREY BORDER -->
+      </table>
+    </center>
+  </body>
+</html>
